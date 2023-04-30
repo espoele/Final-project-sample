@@ -1,0 +1,347 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://espoele.github.io/Final-project-sample/manifests/Final-project-sample.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://5f31a93b-4f01-424e-930c-a0177df4c259",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://9e0106be-3453-4298-9a47-11d33ee6285b",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1451,
+      "width" : 1430,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7643fcd5-0c44-4366-8525-a45f8e278b45",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/lichtenstein.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/lichtenstein.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2074930,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1451,
+          "width" : 1430
+        },
+        "on" : "http://9e0106be-3453-4298-9a47-11d33ee6285b"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Drowning Girl"
+      }, {
+        "label" : "Creator",
+        "value" : "Roy Lichtenstein"
+      }, {
+        "label" : "Subject",
+        "value" : "Pop Art"
+      }, {
+        "label" : "Description",
+        "value" : "Many of Roy Lichtenstein’s early paintings appropriated imagery found in comic books. Drowning Girl samples a page from issue #83 of Secret Hearts, a romance comic book illustrated by Tony Abruzzo and published by DC Comics in 1962. In Abruzzo’s original illustration, the drowning girl’s boyfriend appears in the background, clinging to a capsized boat. Meanwhile, the drowning girl in the foreground laments with closed eyes.\n\nTo create Drowning Girl, Lichtenstein cropped Abruzzo’s splash page (a comic book page with a single image surrounded by a frame), showing the woman alone and encircled by a threatening wave. He also changed the caption from “I don’t care if I have a cramp!” to “I don’t care!” and the boyfriend’s name from Mal to Brad. Describing his use of the comics medium, Lichtenstein says, “My work is actually different from comic strips in that every mark is really in a different place, however slight the difference seems to some. The difference is often not great, but it is crucial.”\n\nCritics continue to debate the differences between Lichtenstein’s painting and Abruzzo’s illustration. The similarities continue to invite questions about authorship, style, and the value society ascribes to different forms of art."
+      }, {
+        "label" : "Publisher",
+        "value" : "MoMA"
+      }, {
+        "label" : "Date Created",
+        "value" : "1963"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Format",
+        "value" : "Painting"
+      }, {
+        "label" : "Extent",
+        "value" : "67 5/8 x 66 3/4\" (171.6 x 169.5 cm)"
+      }, {
+        "label" : "Medium",
+        "value" : "Oil and acrylic on canvas"
+      }, {
+        "label" : "Identifier",
+        "value" : "685.1971"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.moma.org/collection/works/80249?sov_referrer=theme&theme_id=5123"
+      }, {
+        "label" : "Relation Is Part Of",
+        "value" : "From Soup Cans to Flying Saucers"
+      }, {
+        "label" : "Provenance",
+        "value" : "Philip Johnson Fund (by exchange) and gift of Mr. and Mrs. Bagley Wright"
+      } ]
+    }, {
+      "@id" : "http://49997d71-92dd-48dc-9f71-93cc68e2ae17",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1441,
+      "width" : 1354,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f2af1c0a-41b9-4a33-9566-da0b2b7f4ef2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/ruscha.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/ruscha.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1951114,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1441,
+          "width" : 1354
+        },
+        "on" : "http://49997d71-92dd-48dc-9f71-93cc68e2ae17"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "OOF"
+      }, {
+        "label" : "Creator",
+        "value" : "Edward Ruscha"
+      }, {
+        "label" : "Subject",
+        "value" : "Pop Art"
+      }, {
+        "label" : "Description",
+        "value" : "“The single word, its guttural monosyllabic pronunciation, that’s what I was passionate about,” Ruscha has said of his early work. “Loud words, like slam, smash, honk.” The comic-book quality of these words reﬂects the Pop artists’ fascination with popular culture. Lettered in clear typography rather than handwriting, the words are deﬁnite and impersonal in shape; unlike the Abstract Expressionists of the 1940s and ’50s, Ruscha had no interest in letting a painting emerge through an introspective process: “I began to see that the only thing to do would be a preconceived image. It was an enormous freedom to be premeditated about my art.”\n\nLike OOF, many of his paintings have “a certain comedic value,” Ruscha has said, and their humor is underlined by the paradox of their appearance in the silent medium of paint, with neither an image nor a sentence to help them evoke the sounds they denote. OOF is particularly paradoxical, as a word describing a wordless grunt. In Ruscha’s hands, its double Os also punned on recent American paintings—the Targets of Jasper Johns and the Circles of Kenneth Noland."
+      }, {
+        "label" : "Publisher",
+        "value" : "MoMA"
+      }, {
+        "label" : "Date Created ",
+        "value" : "1962"
+      }, {
+        "label" : "Date Modified",
+        "value" : "Reworked 1963"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Format",
+        "value" : "Painting"
+      }, {
+        "label" : "Extent",
+        "value" : "71 1/2 x 67\" (181.5 x 170.2 cm)"
+      }, {
+        "label" : "Medium",
+        "value" : "Oil on canvas"
+      }, {
+        "label" : "Identifier",
+        "value" : "256.1988"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.moma.org/collection/works/79298?sov_referrer=theme&theme_id=5123"
+      }, {
+        "label" : "Relation Is Part Of",
+        "value" : "From Soup Cans to Flying Saucers"
+      }, {
+        "label" : "Rights",
+        "value" : "2023 Edward Ruscha"
+      }, {
+        "label" : "Provenance",
+        "value" : "Gift of Agnes Gund, the Louis and Bessie Adler Foundation, Inc.,\nRobert and Meryl Meltzer, Jerry I. Speyer, Anna Marie and Robert F.\nShapiro, Emily and Jerry Spiegel, an anonymous donor, and purchase"
+      } ]
+    }, {
+      "@id" : "http://3eb21a1b-b444-46db-9ce2-fb16f2f3fcf2",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1382,
+      "width" : 2310,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://34793b1d-2552-4c67-8af2-f5e3dcea4ddb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/warhol.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/warhol.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 3192420,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1382,
+          "width" : 2310
+        },
+        "on" : "http://3eb21a1b-b444-46db-9ce2-fb16f2f3fcf2"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://05f3af05-40b5-49bc-966f-738b2c785308",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1445,
+      "width" : 2420,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3113e4a7-4ac7-4def-a952-227ed097a235",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/drexler.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/drexler.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 3496900,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1445,
+          "width" : 2420
+        },
+        "on" : "http://05f3af05-40b5-49bc-966f-738b2c785308"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://774f5eb5-d462-4afe-abbe-ddd0b8e4a6a3",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1437,
+      "width" : 1934,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1cbdfc78-53a3-497e-add1-ad54a01277c0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/kusama.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/kusama.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2779158,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1437,
+          "width" : 1934
+        },
+        "on" : "http://774f5eb5-d462-4afe-abbe-ddd0b8e4a6a3"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Accumulation No. 1"
+      }, {
+        "label" : "Creator",
+        "value" : "Yayoi Kusama"
+      }, {
+        "label" : "Subject",
+        "value" : "Pop Art"
+      }, {
+        "label" : "Description",
+        "value" : "To make Accumulation No. 1, her first sculpture, Kusama covered an armchair with scores of hand-sewn stuffed and painted protrusions, which she referred to as phalluses. “I make them and make them and then keep on making them, until I bury myself in the process. I call this obliteration.” When she first exhibited this work in New York, her home throughout the 1960s, critics were, perhaps not surprisingly, shocked by the sexualized transformation of an ordinary domestic object by a female artist."
+      }, {
+        "label" : "Publisher",
+        "value" : "MoMA"
+      }, {
+        "label" : "Date Created",
+        "value" : "1962"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Format",
+        "value" : "Sculpture"
+      }, {
+        "label" : "Extent",
+        "value" : "37 x 39 x 43\" (94 x 99.1 x 109.2 cm)"
+      }, {
+        "label" : "Medium",
+        "value" : "Sewn stuffed fabric, paint, and chair fringe"
+      }, {
+        "label" : "Identifier",
+        "value" : "1182.2012"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.moma.org/collection/works/163826?sov_referrer=theme&theme_id=5123"
+      }, {
+        "label" : "Relation Is Part Of",
+        "value" : "From Soup Cans to Flying Saucers"
+      }, {
+        "label" : "Rights",
+        "value" : "2023 Yayoi Kusama"
+      }, {
+        "label" : "Provenance",
+        "value" : "Gift of William B. Jaffe and Evelyn A. J. Hall (by exchange)"
+      } ]
+    }, {
+      "@id" : "http://b9c4354c-504a-4eef-8170-291ba0e71284",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1443,
+      "width" : 985,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b44ec03f-4782-4dc1-b53c-40f5642d2778",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/warhol2.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/warhol2.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1421355,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1443,
+          "width" : 985
+        },
+        "on" : "http://b9c4354c-504a-4eef-8170-291ba0e71284"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
